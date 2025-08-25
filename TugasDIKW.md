@@ -1,4 +1,5 @@
-Analisis penjualan banner Raiden Shogun di Genshin Impact menggunakan Piramida DIKW
+## 🔎 Analisis penjualan banner Raiden Shogun di Genshin Impact menggunakan Piramida DIKW
+Saya memilih untuk menganalisis hasil penjualan banner Genshin Impact di bidang Game, Analisis ini bertujuan untuk memberitahukan pembaca tentang target demographic dari Game Genshin impact (Trend karakter), agar lebih mudah untuk membuat/mengdesign karakter yang akan lebih disukai oleh pemain dan akan dibeli oleh pemain.
 
 ---
 
