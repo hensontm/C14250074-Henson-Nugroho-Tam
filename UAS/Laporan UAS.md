@@ -82,5 +82,5 @@ Setelah melakukan tahapan analisis data dan pemodelan regresi, didapatkan wawasa
 5.  **Akurasi Tebakan (MAE):** Berdasarkan *Numeric Scorer*, rata-rata tebakan model meleset dalam rentang angka yang wajar (MAE rendah), membuktikan bahwa biaya kuliah sebenarnya bisa dihitung secara logis dari fasilitas yang ditawarkan.
    <img width="346" height="216" alt="image" src="https://github.com/user-attachments/assets/b039997e-bcf9-4391-9f22-550152fd060c" />
 
-9.  **Anomali:** Terdapat beberapa kampus Negeri yang memiliki fasilitas setara Swasta namun harganya jauh lebih murah (dapat dilihat dari selisih harga asli dan prediksi), yang bisa menjadi rekomendasi "Best Value" bagi calon mahasiswa.
+6.  **Anomali:** Terdapat beberapa kampus Negeri yang memiliki fasilitas setara Swasta namun harganya jauh lebih murah (dapat dilihat dari selisih harga asli dan prediksi), yang bisa menjadi rekomendasi "Best Value" bagi calon mahasiswa.
     
