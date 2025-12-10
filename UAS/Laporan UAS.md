@@ -68,6 +68,19 @@ Menggunakan node:
 Setelah melakukan tahapan analisis data dan pemodelan regresi, didapatkan wawasan sebagai berikut:
 
 1.  **Faktor Penentu Harga Terbesar:** Status *Public/Private* dan Biaya Hidup (*Room & Board*) memiliki pengaruh paling besar terhadap tingginya biaya kuliah (*Tuition*).
+   <img width="1097" height="294" alt="Prediction Tuition Vs Room" src="https://github.com/user-attachments/assets/48ed8785-b36d-48cb-ae00-47184a59fdcb" />
+
 2.  **Korelasi Kualitas:** Kampus dengan biaya kuliah tinggi cenderung memiliki *Graduation Rate* yang lebih tinggi. Ada pepatah "Ada harga ada rupa" yang berlaku di dataset ini.
+   <img width="1097" height="294" alt="Price Vs Gradutaion" src="https://github.com/user-attachments/assets/a67394a2-4574-4ba3-b994-0f91869cf1a1" />
+
 3.  **Biaya Hidup:** Biaya asrama dan makan (*Living Cost*) berbanding lurus dengan SPP. Kampus dengan SPP mahal biasanya juga memiliki biaya hidup yang mahal.
-4.  **Prediksi Model (R²):** Model Random Forest berhasil mendapatkan nilai R-Squared yang tinggi (mendekati 1), yang artinya fitur-fitur seperti rasio dosen dan fasilitas asrama sangat kuat dalam menjelaskan mahal/murahnya sebuah
+   <img width="1097" height="294" alt="Total Living COst Staswa VS negeri" src="https://github.com/user-attachments/assets/9d9047fa-b7fb-435a-8a3b-62f8729518c3" />
+
+4.  **Prediksi Model (R²):** Model Random Forest berhasil mendapatkan nilai R-Squared yang tinggi (mendekati 1), yang artinya fitur-fitur seperti rasio dosen dan fasilitas asrama sangat kuat dalam menjelaskan mahal/murahnya sebuah kampus.
+   <img width="346" height="216" alt="image" src="https://github.com/user-attachments/assets/09c692ca-ea4f-472b-a642-93c785ee49db" />
+   
+5.  **Akurasi Tebakan (MAE):** Berdasarkan *Numeric Scorer*, rata-rata tebakan model meleset dalam rentang angka yang wajar (MAE rendah), membuktikan bahwa biaya kuliah sebenarnya bisa dihitung secara logis dari fasilitas yang ditawarkan.
+   <img width="346" height="216" alt="image" src="https://github.com/user-attachments/assets/b039997e-bcf9-4391-9f22-550152fd060c" />
+
+9.  **Anomali:** Terdapat beberapa kampus Negeri yang memiliki fasilitas setara Swasta namun harganya jauh lebih murah (dapat dilihat dari selisih harga asli dan prediksi), yang bisa menjadi rekomendasi "Best Value" bagi calon mahasiswa.
+    
